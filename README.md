@@ -1,0 +1,2 @@
+# Myths
+Myths across civilizations
