@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Greek Mythology</title>
+  <!-- <link rel="stylesheet" href="style12.css" /> -->
+   <link rel="stylesheet" href="../CSS/style12.css">
+  <!-- Bootstrap CSS CDN (optional if not included in style12.css) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* General Reset */
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(); /* Use your actual image path */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #3d281a;
+    line-height: 1.6;
+    }
+
+    header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    }
+
+    main {
+    padding-top: 80px;
+    }
+
+
+    /* Navbar Styling */
+    .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+    font-weight: bold;
+    font-size: 1.6rem;
+    }
+
+    .navbar-nav .nav-link {
+    font-weight: 500;
+    transition: all 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover {
+    color: #f29335 !important;
+    }
+
+    /* Section Styling */
+    .section {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: transparent;
+    }
+
+    /* Inner Box (Card Style) */
+    .section .content {
+    background: rgba(255, 255, 255, 0.85); /* semi-transparent white */
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    padding: 40px 30px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Section Headings */
+    .section h2 {
+    font-size: 2rem;
+    color: #a46d37;
+    margin-bottom: 20px;
+    border-left: 6px solid #f29335;
+    padding-left: 12px;
+    }
+
+    /* List Styling */
+    .section ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+    }
+
+    .section ul li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+    }
+
+    /* Footer */
+
+
+    /* Responsive */
+    @media (max-width: 768px) {
+    .navbar-nav {
+        padding-left: 0 !important;
+    }
+
+    .section {
+        padding: 40px 15px;
+    }
+
+    .section .content {
+        padding: 25px 20px;
+    }
+
+    .section h2 {
+        font-size: 1.6rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+    }
+
+    /* Smooth Scroll */
+    html {
+    scroll-behavior: smooth;
+    }
+
+    .image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+      margin: 15px auto;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+  </style>
+</head>
+<body style="background-image: url(../Img/greek/main.png);">
+
+
+
+<header>
+  <nav id="nav" class="navbar navbar-expand-lg " style="background-color: #3b8f75;">
+  <div class="container-fluid">
+    <a style="color: #c0c98d;" class="navbar-brand" href="#">Myths Across Civilizations</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul style="padding-left: 790px;" class="navbar-nav">
+        <li class="nav-item">
+          <a style="color: #3e2d2d;" class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #3e2d2d;">
+            Mythology
+          </a>
+          <ul class="dropdown-menu">
+            <li><a style="color: #b38184;" class="dropdown-item" href="hindu.html">Hindu</a></li>
+            <li><a style="color: #b38184;" class="dropdown-item" href="greek_mythology3.html">Greek</a></li>
+            <li><a style="color: #b38184;" class="dropdown-item" href="egypt.html">Egyptian</a></li>
+            <li><a style="color: #b38184;" class="dropdown-item" href="Chinese.html">Chinese</a></li>
+            <li><a style="color: #b38184;" class="dropdown-item" href="norse.html">Norse</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a style="color: #3e2d2d;" class="nav-link" href="Sign_Up.html">Sign In/Up</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+</header>
+
+  <main>
+    <section id="creation" class="section">      
+      <div class="content">
+        <h2>Creation of the World</h2>
+        <div class="image">
+          <img src="../Img/greek/bg201.jpeg" alt="">
+        </div>
+        <p>In Greek mythology, the universe started with <strong>Chaos</strong> — a formless nothingness. From Chaos came <strong>Gaia</strong> (Earth), <strong>Tartarus</strong> (Abyss), <strong>Eros</strong> (Love), <strong>Nyx</strong> (Night), and <strong>Erebus</strong> (Darkness).</p>
+        <p>Gaia gave birth to Uranus (Sky), and together they created the Titans. The Titans ruled until they were overthrown by the Olympians, led by Zeus. This cycle of generations and power shifts defines much of Greek myth.</p>
+        <p>The creation story reflects the battle between order and chaos, symbolizing natural forces shaping the world.</p>
+      </div>
+    </section>
+
+    <section id="pantheon" class="section">
+      <div class="content">
+        <h2>Major Greek Gods and Goddesses</h2>
+        <div class="image">
+          <img src="../Img/greek/Bg.png" alt="" id="godd">
+        </div>
+        <ul>
+          <li><strong>Zeus</strong>: King of the gods, ruler of the sky, thunder, and law.</li>
+          <li><strong>Hera</strong>: Queen of the gods, protector of marriage and women.</li>
+          <li><strong>Poseidon</strong>: God of the sea, earthquakes, and horses.</li>
+          <li><strong>Demeter</strong>: Goddess of agriculture and harvest.</li>
+          <li><strong>Athena</strong>: Virgin goddess of wisdom, strategy, and crafts.</li>
+          <li><strong>Apollo</strong>: God of the sun, music, prophecy, and healing.</li>
+          <li><strong>Artemis</strong>: Goddess of the moon and hunting, protector of animals.</li>
+          <li><strong>Ares</strong>: God of war and violence.</li>
+          <li><strong>Aphrodite</strong>: Goddess of love, beauty, and desire.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="underworld" class="section">
+      <div class="content">
+        <h2>Underworld and Afterlife</h2>
+        <div class="image">
+          <img src="../Img/greek/underworld.jpeg" alt="">
+        </div>
+        <p>The Greek underworld was ruled by <strong>Hades</strong>, assisted by <strong>Persephone</strong>. It was the final destination of souls after death, divided into different realms:</p>
+        <ul>
+          <li><strong>Elysium</strong>: Reserved for heroes and the righteous, a place of peace.</li>
+          <li><strong>Asphodel Meadows</strong>: For average souls, where spirits wandered forever.</li>
+          <li><strong>Tartarus</strong>: Deep pit for punishment of the wicked and defeated Titans.</li>
+        </ul>
+        <!-- Priyanka -->
+        <p>Charon ferried souls across the River Styx, and Cerberus guarded the entrance. The concept of judgment and moral consequence was central to the Greek idea of the afterlife.</p>
+      </div>
+    </section>
+
+    <section id="struggle" class="section">
+      <div class="content">
+        <h2>Cosmic Struggles</h2>
+        <div class="image">
+          <img src="../Img/greek/cosmicstrug.jpg" alt="">
+        </div>
+        <p>Greek myths are filled with divine conflicts that shaped the cosmos:</p>
+        <ul>
+          <li><strong>Titanomachy</strong>: Zeus and the Olympians fought Cronus and the Titans for control of the universe.</li>
+          <li><strong>Gigantomachy</strong>: Battle between gods and giants, symbolizing divine order over chaos.</li>
+          <li><strong>Perseus vs. Medusa</strong>: Hero decapitates the deadly Gorgon to save Andromeda.</li>
+          <li><strong>Theseus vs. Minotaur</strong>: Courage and cleverness overcome monstrous strength.</li>
+          <li><strong>Heracles vs. Hydra</strong>: One of 12 Labors; killing a serpent with regenerating heads.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="symbols" class="section">
+      <div class="content">
+        <h2>Sacred Symbols and Objects</h2>
+        <div class="image">
+          <img src="../Img/greek/twelve-olympians-wallpapers.png" alt="" id="sym">
+        </div>
+        <ul>
+          <li><strong>Thunderbolt</strong>: Weapon of Zeus, symbol of power and divine justice.</li>
+          <li><strong>Trident</strong>: Poseidon's symbol of control over seas and storms.</li>
+          <li><strong>Owl</strong>: Associated with Athena, representing wisdom and insight.</li>
+          <li><strong>Caduceus</strong>: Hermes' staff, a symbol of communication and commerce.</li>
+          <li><strong>Laurel Wreath</strong>: Used to crown victors; sacred to Apollo.</li>
+          <li><strong>Golden Fleece</strong>: A magical artifact that inspired the voyage of Jason and the Argonauts.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="temples" class="section">
+      <div class="content">
+        <h2>Temples and Rituals</h2>
+        <div class="image">
+          <img src="../Img/greek/bg206.webp" alt="">
+        </div>
+        <p>Temples were centers of Greek religion and architecture, often built atop hills. Worship involved:</p>
+        <ul>
+          <li><strong>Parthenon</strong>: Temple of Athena in Athens, symbol of Greek art and devotion.</li>
+          <li><strong>Delphi</strong>: Home to Apollo’s oracle, consulted for divine guidance.</li>
+          <li>Offerings: Wine, oil, fruit, animals were sacrificed for favor from gods.</li>
+          <li>Festivals: <strong>Olympic Games</strong> (for Zeus), <strong>Panathenaea</strong> (for Athena), <strong>Dionysia</strong> (for Dionysus).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="creatures" class="section">
+      <div class="content">
+        <h2>Mythical Creatures & Beings</h2>
+        <div class="image">
+          <img src="../Img/greek/strug.jpg" alt="">
+        </div>
+        <ul>
+          <li><strong>Medusa</strong>: A cursed Gorgon who turned people to stone with her gaze.</li>
+          <li><strong>Minotaur</strong>: Half-man, half-bull trapped in the Labyrinth by King Minos.</li>
+          <li><strong>Hydra</strong>: Serpent with multiple heads; cutting one caused two more to grow.</li>
+          <li><strong>Cerberus</strong>: Fierce three-headed dog guarding the underworld gates.</li>
+          <li><strong>Chimera</strong>: Fire-breathing creature with parts of a lion, goat, and serpent.</li>
+          <li><strong>Sphinx</strong>: Riddling guardian with lion's body and human face.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="heroes" class="section">
+      <div class="content">
+        <h2>Legendary Heroes</h2>
+        <div class="image">
+          <img src="../Img/greek/achilles.jpg" alt="">
+        </div>
+        <ul>
+          <li><strong>Heracles (Hercules)</strong>: Demigod famous for completing 12 impossible labors.</li>
+          <li><strong>Theseus</strong>: Athenian hero who slew the Minotaur and unified Greece.</li>
+          <li><strong>Perseus</strong>: Slayer of Medusa and rescuer of Andromeda.</li>
+          <li><strong>Achilles</strong>: Hero of the Trojan War, known for his unmatched strength and tragic heel.</li>
+          <li><strong>Odysseus</strong>: Clever warrior who endured trials for 10 years on his way home from Troy.</li>
+        </ul>
+        <p>These heroes embody courage, intelligence, and strength. Their stories were told through epic poems like the <em>Iliad</em> and the <em>Odyssey</em>.</p>
+      </div>
+    </section>
+
+    <section id="morals" class="section">
+      <div class="content">
+        <h2>Mythological Lessons</h2>
+        <div class="image">
+          <img src="../Img/greek/fate.jpg" alt="" id="fate">
+        </div>
+        <ul>
+          <li><strong>Hubris</strong>: Excessive pride leads to downfall, as seen in the stories of Icarus and Niobe.</li>
+          <li><strong>Fate</strong>: Even gods can’t escape destiny; Oedipus’s fate was sealed despite his actions.</li>
+          <li><strong>Justice</strong>: Wrongdoers are punished, like Tantalus and Sisyphus.</li>
+          <li><strong>Wisdom over strength</strong>: Odysseus outwitted monsters with intellect, not brute force.</li>
+        </ul>
+        <p>These myths served as moral guides and cautionary tales for ancient Greeks.</p>
+      </div>
+    </section>
+
+    <section id="legacy" class="section">
+      <div class="content">
+        <h2>Legacy in Modern Culture</h2>
+        <div class="image">
+          <img src="../Img/greek/bg2010.jpeg" alt="">
+        </div>
+        <ul>
+          <li>Words from Greek: <strong>Titanic</strong> (Titan), <strong>Echo</strong>, <strong>Panic</strong> (Pan), <strong>Narcissist</strong> (Narcissus).</li>
+          <li>Brands: <strong>Nike</strong> (Goddess of victory), <strong>Amazon</strong> (warrior women), <strong>Hermes</strong> (messenger god).</li>
+          <li>Movies: <em>Clash of the Titans</em>, <em>Hercules</em>, <em>Percy Jackson</em>.</li>
+          <li>Psychology: Terms like <em>Oedipus Complex</em>, <em>Electra Complex</em>.</li>
+        </ul>
+        <p>Greek mythology remains deeply woven into global literature, science, language, and pop culture.</p>
+      </div>
+    </section>
+  </main>
+<footer>
+  <br>
+  <div id="foot">
+    <a href="#">Home</a>
+    <br><br>
+    <a href="#">Mythology</a>
+    <br><br>
+    <a href="Sign_Up.html">Sign up / Login</a>
+    <br><br>
+    <a href="mailto:liza.doc2607@gmail.com">Contact Us!</a>
+
+    <!-- Rating Box -->
+    <div class="rating-box">
+      <!-- Emoji Faces -->
+
+      <!-- Stars -->
+      <div class="rating-boxx">
+  <div class="rating-stars">
+    <input type="radio" name="rating" id="rating-5">
+    <label for="rating-5">
+      <svg viewBox="0 0 24 24" class="star">
+        <path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787L19.4 24 12 20.012 4.6 24l1.466-9.002L.133 9.21l8.2-1.193z" />
+      </svg>
+    </label>
+
+    <input type="radio" name="rating" id="rating-4">
+    <label for="rating-4">
+      <svg viewBox="0 0 24 24" class="star">
+        <path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787L19.4 24 12 20.012 4.6 24l1.466-9.002L.133 9.21l8.2-1.193z" />
+      </svg>
+    </label>
+
+    <input type="radio" name="rating" id="rating-3">
+    <label for="rating-3">
+      <svg viewBox="0 0 24 24" class="star">
+        <path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787L19.4 24 12 20.012 4.6 24l1.466-9.002L.133 9.21l8.2-1.193z" />
+      </svg>
+    </label>
+
+    <input type="radio" name="rating" id="rating-2">
+    <label for="rating-2">
+      <svg viewBox="0 0 24 24" class="star">
+        <path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787L19.4 24 12 20.012 4.6 24l1.466-9.002L.133 9.21l8.2-1.193z" />
+      </svg>
+    </label>
+
+    <input type="radio" name="rating" id="rating-1">
+    <label for="rating-1">
+      <svg viewBox="0 0 24 24" class="star">
+        <path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787L19.4 24 12 20.012 4.6 24l1.466-9.002L.133 9.21l8.2-1.193z" />
+      </svg>
+    </label>
+  </div>
+</div>
+
+    </div>
+  </div>
+</footer>
+ <!-- Bootstrap JS CDN (for dropdown and toggler functionality) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

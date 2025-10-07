@@ -1,0 +1,162 @@
+/*Body*/
+body{
+    background-image: url(/Asset/Chinese_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Navbar*/
+.navbar-brand {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.navbar-nav{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.dropdown-menu a{
+    padding: 12px 16px;
+}
+.dropdown-menu a:hover{
+    background-color: #c0c98dad;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown:hover .nav-link dropdown-toggle {
+    background-color: #c0c98da3;
+}
+
+/*Section*/
+.section1{
+    text-align: center;
+    text-decoration: underline;
+    align-items: center;
+    margin: 5cm;
+}
+
+.section{
+    background: rgba(0, 0, 0, 0.711);
+    border-radius: 15px;
+    margin: 5cm;
+    color: aliceblue;
+    align-items: center;
+}
+
+.section h3{
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.section p{
+    text-align: left;
+    margin-left: 1cm;
+    padding: 20px;
+}
+
+.section ul{
+    text-align: left;
+    margin-left: 2cm;
+    padding: 20px;
+}
+
+.section img{
+    height: 286;
+    width: 400px;
+    margin: 1cm;
+}
+
+.card{
+    margin: 2cm;
+    padding: 15px;
+    border-radius: 10px;
+    height: 500px;
+    width: 450px;
+    height: 100%;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.card img{
+    margin-left: 100px;
+    height: 300px;
+    width: 250px;
+}
+
+/*footer*/
+footer {
+  background-color: #3b8f75;
+  position: absolute;
+  width: 100%;
+  padding: 0px 0;
+  
+}
+
+#foot {
+  text-align: center;
+  color: white;
+}
+
+#foot a {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+
+
+
+.rating-boxx {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.rating-stars {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.rating-stars input[type="radio"] {
+  display: none;
+}
+
+.rating-stars label {
+  cursor: pointer;
+}
+
+.rating-stars label svg {
+  width: 36px;
+  height: 36px;
+  fill: #e3e3e3;
+  transition: fill 0.3s ease, transform 0.2s ease, filter 0.3s ease;
+}
+
+/* Glow and color when checked */
+.rating-stars input[type="radio"]:checked ~ label svg,
+.rating-stars input[type="radio"]:checked + label svg {
+  fill: #fcd93a;
+  filter: drop-shadow(0 0 6px #fcd93a);
+  transform: scale(1.1);
+}
+
+/* Hover effect */
+.rating-stars label:hover svg,
+.rating-stars label:hover ~ label svg {
+  fill: #d8b11e;
+  filter: drop-shadow(0 0 4px #d8b11e);
+  transform: scale(1.05);
+}

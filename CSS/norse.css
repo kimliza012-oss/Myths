@@ -1,0 +1,303 @@
+.navbar-brand {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.navbar-nav{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.navbar-brand {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navbar-nav{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.dropdown-menu a{
+    padding: 12px 16px;
+}
+.dropdown-menu a:hover{
+    background-color: #c0c98dad;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown:hover .nav-link dropdown-toggle {
+    background-color: #c0c98da3;
+}
+
+.slider-wrapper-vertical {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 280px;
+  padding: 1rem;
+  background-color: rgba(157, 90, 32, 0.1);
+  margin-top: 370px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  gap: 1.2rem;
+  height: 750px;
+  width: 1200px;
+}
+
+.slider-wrapper-vertical::-webkit-scrollbar {
+  width: 8px;
+}
+
+.slider-wrapper-vertical::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+ 
+}
+.myth-card {
+  
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+  padding: 10px;
+  background: rgba(rgba(255, 128, 0, 0.5), green, blue, alpha);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  border: 1px solid ;
+  margin-bottom: 150px;
+  background-color: #dc8228;
+}
+.myth-card img {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+  margin-bottom: 8px; /* small gap between images */
+  
+
+}
+.caption{
+  font-style: oblique;
+}
+.myth-card p{
+  text-align: justify;
+  margin: 0 10px;
+  width: 300px;
+  
+}
+.myths-heading{
+ font-family: "Manufacturing Consent", system-ui;
+ background-color: #995613;
+ text-align: center;
+ margin-bottom: 10px;
+}
+#topic-name{
+  
+ font-family: "Manufacturing Consent", system-ui;
+ background-color: #a45d17;
+ text-align: center;
+ 
+}
+.horizontal-slider-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 50px;
+ padding-bottom: 20px;
+}
+
+.horizontal-slider {
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+  height: 100%;
+}
+
+.horizontal-slide {
+  min-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  backdrop-filter: blur(2px);
+  background:linear-gradient(#4eb192 , #dc8228);/* amber-brown with 40% opacity */
+
+}
+
+.slide-img1 {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: -40px;
+}
+.slide-img2 {
+  width: 420px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: -40px;
+}
+.slide-img6 {
+  border-radius: 10px;
+  margin-top: -40px;
+}
+.slide-img7 {
+  border-radius: 10px;
+  margin-top: -40px;
+}
+.slide-img8 {
+  border-radius: 10px;
+  margin-top: -40px;
+}
+.slide-img9 {
+  border-radius: 10px;
+  margin-top: -40px;
+}
+.slide-img10 {
+  border-radius: 10px;
+  margin-top: -40px;
+}
+.slide-img11 {
+  border-radius: 10px;
+  margin-top: -40px;
+}
+
+
+.slide-text {
+  flex: 1;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 20px;
+  color: #0a0000;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 16;
+}
+.arrow {
+  background: #5c2e0d; /* dark bronze background */
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.arrow:hover {
+  background: #814a1f;
+}
+
+.arrow svg {
+  width: 24px;
+  height: 24px;
+  fill: #f2d8b3; /* golden arrow color */
+}
+
+.arrow:hover svg {
+  fill: #fff0c9; /* cream-white on hover */
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+.section-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Manufacturing Consent", serif; /* or your Norse font */
+  color: #3d281a;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  background-color: #a45d17;
+  padding: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+  background-color: #3b8f75;
+  position: absolute;
+  width: 100%;
+  padding: 0px 0;
+  margin-top: 8cm;
+}
+
+#foot {
+  text-align: center;
+  color: white;
+}
+
+#foot a {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+
+
+
+.rating-boxx {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.rating-stars {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.rating-stars input[type="radio"] {
+  display: none;
+}
+
+.rating-stars label {
+  cursor: pointer;
+}
+
+.rating-stars label svg {
+  width: 36px;
+  height: 36px;
+  fill: #e3e3e3;
+  transition: fill 0.3s ease, transform 0.2s ease, filter 0.3s ease;
+}
+
+/* Glow and color when checked */
+.rating-stars input[type="radio"]:checked ~ label svg,
+.rating-stars input[type="radio"]:checked + label svg {
+  fill: #fcd93a;
+  filter: drop-shadow(0 0 6px #fcd93a);
+  transform: scale(1.1);
+}
+
+/* Hover effect */
+.rating-stars label:hover svg,
+.rating-stars label:hover ~ label svg {
+  fill: #d8b11e;
+  filter: drop-shadow(0 0 4px #d8b11e);
+  transform: scale(1.05);
+}

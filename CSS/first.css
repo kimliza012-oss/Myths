@@ -1,0 +1,333 @@
+body {
+      margin: 0;
+      padding: 0;
+      background-image: url('../Img/asset/wp11360783-samudra-manthan-wallpapers[1].jpg'); /* Replace with your image path */
+      background-size: cover;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      color: white;
+      scroll-behavior: smooth;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+  .overlay {
+      background-color: rgba(32, 31, 31, 0.5); /* semi-transparent black overlay */
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+}
+
+.text-box{
+  font-size: 2em;
+  
+}
+
+.navbar-brand{
+  font-family:"Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.navbar-nav{
+  font-family: "Cinzel",serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+
+section ul li {
+  margin-bottom: 30px;
+}
+
+section ul li img {
+  display: block;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.topic-box {
+  max-width: 700px;
+  background: white;
+  margin: 50px auto;
+  padding: 40px 30px;
+  border-radius: 50px;
+  box-shadow:
+    0 15px 30px rgba(0, 0, 0, 0.15),
+    0 10px 20px rgba(75, 63, 114, 0.10);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.topic-box:hover {
+  transform: scale(1.03);
+}
+
+.topic-box h1 {
+  font-size: 2.4rem;
+  margin-bottom: 25px;
+  color: #5a49a3;
+  font-weight: 700;
+}
+
+.topic-box p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #635f7a;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.topic-box img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+  filter: drop-shadow(1px 1px 10px rgb(0, 0, 0));
+}
+.topic-box h2{
+  font-size:1.05rem;
+margin-bottom: 25px;
+color: black;
+font-weight:800;
+}
+.topic-box ol{
+  font-size: 1.05rem;
+  margin-bottom: 25px;
+  color: blue;
+}
+
+
+
+
+
+.subtopic {
+  margin: 0;
+  padding: 20px;
+  /* background-image: url('/asset/wp11360783-samudra-manthan-wallpapers[1].jpg'); */
+  /* background-size: cover; */
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  height: 80vh;
+  cursor: pointer;
+  transition: transform 0.3 ease;
+  }
+  
+.subtopic:hover{
+  transform: scale(1.03);
+}
+.topic {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 300px;  /* ✅ Fixed width for better fitting */
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.topic img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #5a49a3;
+  margin-bottom: 10px;
+}
+
+.topic h2 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  color: #5a49a3;
+}
+
+.topic p {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.topic ul {
+  font-size: 0.78rem;
+  text-align: left;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.topic ul li {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .topic {
+    width: 90%;
+  }
+}
+
+.subtopic2 {
+  margin: 0;
+  padding: 20px;
+  /* background-image: url('/asset/wp11360783-samudra-manthan-wallpapers[1].jpg'); */
+  /* background-size: cover; */
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  height: 100vh;
+  cursor: pointer;
+  transition: transform 0.3 ease;
+  }
+
+.subtopic2:hover{
+  transform: scale(1.03);
+}
+  
+.topic2 {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 300px;  /* ✅ Fixed width for better fitting */
+  padding: 18px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.topic2 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #5a49a3;
+  margin-bottom: 10px;
+}
+
+.topic2 h2 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  color:#5a49a3;
+}
+
+.topic2 p {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.topic2 ul {
+  font-size: 0.78rem;
+  text-align: left;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.topic2 ul li {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .topic2 {
+    width: 90%;
+  }
+}
+
+.ritual img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    filter: drop-shadow(1px 1px 10px rgb(0, 0, 0));
+}
+
+
+footer {
+  background-color: #3b8f75;
+  position: absolute;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 8cm;
+  display: flex;
+}
+
+
+#foot {
+  text-align: center;
+  color: white;
+}
+
+#foot a {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+
+
+
+.rating-boxx {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.rating-stars {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.rating-stars input[type="radio"] {
+  display: none;
+}
+
+.rating-stars label {
+  cursor: pointer;
+}
+
+.rating-stars label svg {
+  width: 36px;
+  height: 36px;
+  fill: #e3e3e3;
+  transition: fill 0.3s ease, transform 0.2s ease, filter 0.3s ease;
+}
+
+/* Glow and color when checked */
+.rating-stars input[type="radio"]:checked ~ label svg,
+.rating-stars input[type="radio"]:checked + label svg {
+  fill: #fcd93a;
+  filter: drop-shadow(0 0 6px #fcd93a);
+  transform: scale(1.1);
+}
+
+/* Hover effect */
+.rating-stars label:hover svg,
+.rating-stars label:hover ~ label svg {
+  fill: #d8b11e;
+  filter: drop-shadow(0 0 4px #d8b11e);
+  transform: scale(1.05);
+}
